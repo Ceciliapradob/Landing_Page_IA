@@ -6,11 +6,11 @@ import { FaBookReader } from "react-icons/fa";
 import { FadeUp } from "../Hero/Hero";
 import { motion } from "framer-motion";
 
-const Banner = () => {
+const Recursos = () => {
   return (
     <section>
       <div className="container py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
-        {/* Banner Image */}
+        {/* Recursos Image */}
         <div className="flex justify-center items-center">
           <motion.img
             initial={{ opacity: 0, x: -50 }}
@@ -22,7 +22,7 @@ const Banner = () => {
             className="w-[350px] md:max-w-[450px] object-cover drop-shadow"
           />
         </div>
-        {/* Banner Text */}
+        {/* Recursos Text */}
         <div className="flex flex-col justify-center">
           <div className="text-center md:text-left space-y-12">
             <motion.h1
@@ -73,4 +73,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Recursos;

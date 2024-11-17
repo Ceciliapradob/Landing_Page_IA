@@ -48,10 +48,15 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-start"
             >
-              <button className="primary-btn flex items-center gap-2 group">
+              <a
+                href="https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial#:~:text=La%20Inteligencia%20Artificial%20(IA)%20es,a%20d%C3%ADa%20a%20todas%20horas."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn flex items-center gap-2 group"
+              >
                 Conocer más
                 <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
-              </button>
+              </a>
             </motion.div>
           </div>
         </div>
